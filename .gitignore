@@ -1,0 +1,9 @@
+# Large/raw scientific data
+MOON_DATASET/07_raw_data/
+
+# Python cache
+__pycache__/
+MOON_DATASET/**/__pycache__/
+
+# Python compiled files
+*.pyc
