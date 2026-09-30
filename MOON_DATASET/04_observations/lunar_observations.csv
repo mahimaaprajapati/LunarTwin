@@ -1,4 +1,4 @@
-﻿observation_id,feature_id,mission,instrument,dataset_id,product_id,observation_type,parameter,value,unit,latitude,longitude,observation_time,processing_level,source_id
+observation_id,feature_id,mission,instrument,dataset_id,product_id,observation_type,parameter,value,unit,latitude,longitude,observation_time,processing_level,source_id
 LOLA-091940157-000006-D4,,Lunar Reconnaissance Orbiter,LOLA,LRO-L-LOLA-3-RDR-V1.0,LOLARDR_091940157_DAT,topography,spot_radius,321.978086,m,2.8570808,191.8080363,2009-07-13T01:57:38.59809101,RDR,NASA_LRO_LOLA
 LOLA-091940157-000011-D5,,Lunar Reconnaissance Orbiter,LOLA,LRO-L-LOLA-3-RDR-V1.0,LOLARDR_091940157_DAT,topography,spot_radius,373.420329,m,3.0321924,191.3873238,2009-07-13T01:57:39.31237668,RDR,NASA_LRO_LOLA
 LOLA-091940157-000013-D4,,Lunar Reconnaissance Orbiter,LOLA,LRO-L-LOLA-3-RDR-V1.0,LOLARDR_091940157_DAT,topography,spot_radius,318.584579,m,2.9495872,191.7610689,2009-07-13T01:57:39.59809107,RDR,NASA_LRO_LOLA
@@ -5426,3 +5426,10 @@ LOLA-091940157-050063-D5,,Lunar Reconnaissance Orbiter,LOLA,LRO-L-LOLA-3-RDR-V1.
 LOLA-091940157-050076-D2,,Lunar Reconnaissance Orbiter,LOLA,LRO-L-LOLA-3-RDR-V1.0,LOLARDR_091940157_DAT,topography,spot_radius,328.346968,m,2.9292305,190.5028138,2009-07-13T03:56:51.45575041,RDR,NASA_LRO_LOLA
 LOLA-091940157-050079-D2,,Lunar Reconnaissance Orbiter,LOLA,LRO-L-LOLA-3-RDR-V1.0,LOLARDR_091940157_DAT,topography,spot_radius,387.748436,m,2.9477024,190.3000827,2009-07-13T03:56:51.88432324,RDR,NASA_LRO_LOLA
 LOLA-091940157-050098-D4,,Lunar Reconnaissance Orbiter,LOLA,LRO-L-LOLA-3-RDR-V1.0,LOLARDR_091940157_DAT,topography,spot_radius,351.781538,m,2.8627314,190.5233936,2009-07-13T03:56:54.59860826,RDR,NASA_LRO_LOLA
+DFSAR-20260308-HH,,Chandrayaan-2,DFSAR,ISRO-C2-SAR,ch2_sar_ncxl_20260308t062017233_d_sri_xx_fp_hh_d18,radar_polarization,HH,1.0,channel_present,-84.167747,33.403405,2026-03-08T06:20:17.049Z,Calibrated L2-SELENOREF,ISRO_CH2_DFSAR
+DFSAR-20260308-HV,,Chandrayaan-2,DFSAR,ISRO-C2-SAR,ch2_sar_ncxl_20260308t062017233_d_sri_xx_fp_hv_d18,radar_polarization,HV,1.0,channel_present,-84.167747,33.403405,2026-03-08T06:20:17.049Z,Calibrated L2-SELENOREF,ISRO_CH2_DFSAR
+DFSAR-20260308-VH,,Chandrayaan-2,DFSAR,ISRO-C2-SAR,ch2_sar_ncxl_20260308t062017233_d_sri_xx_fp_vh_d18,radar_polarization,VH,1.0,channel_present,-84.167747,33.403405,2026-03-08T06:20:17.049Z,Calibrated L2-SELENOREF,ISRO_CH2_DFSAR
+DFSAR-20260308-VV,,Chandrayaan-2,DFSAR,ISRO-C2-SAR,ch2_sar_ncxl_20260308t062017233_d_sri_xx_fp_vv_d18,radar_polarization,VV,1.0,channel_present,-84.167747,33.403405,2026-03-08T06:20:17.049Z,Calibrated L2-SELENOREF,ISRO_CH2_DFSAR
+DFSAR-20260308-INCIDENCE,,Chandrayaan-2,DFSAR,ISRO-C2-SAR,ch2_sar_ncxl_20260308t062017233_d_fp_d18,acquisition_geometry,incidence_angle,22.051914,degree,-84.167747,33.403405,2026-03-08T06:20:17.049Z,Calibrated L2-SELENOREF,ISRO_CH2_DFSAR
+DFSAR-20260308-FREQUENCY,,Chandrayaan-2,DFSAR,ISRO-C2-SAR,ch2_sar_ncxl_20260308t062017233_d_fp_d18,instrument_parameter,center_frequency,1250000000.0,Hz,-84.167747,33.403405,2026-03-08T06:20:17.049Z,Calibrated L2-SELENOREF,ISRO_CH2_DFSAR
+DFSAR-20260308-RESOLUTION,,Chandrayaan-2,DFSAR,ISRO-C2-SAR,ch2_sar_ncxl_20260308t062017233_d_fp_d18,product_parameter,pixel_spacing,25.0,m,-84.167747,33.403405,2026-03-08T06:20:17.049Z,Calibrated L2-SELENOREF,ISRO_CH2_DFSAR
