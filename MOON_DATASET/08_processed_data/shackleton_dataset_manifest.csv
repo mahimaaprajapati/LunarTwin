@@ -1,0 +1,12 @@
+file,role,resolution,status,notes
+Site04_final_adj_5mpp_surf.tif,LOLA elevation surface,5 m,Available,Shackleton-area source; interpolation provenance must be retained
+Shackleton_LOLA_80M_crop.tif,LOLA elevation crop,80 m,Provisional,Grid verified; geographic placement validation pending
+Shackleton_height_80M.tif,Elevation feature,80 m,Provisional,Same grid; derivation and units need documentation
+Shackleton_slope_80M.tif,Slope,80 m,Provisional,Same grid; derivation documented as pending
+Shackleton_aspect_80M.tif,Aspect,80 m,Provisional,Same grid; derivation documented as pending
+Shackleton_roughness_80M.tif,Roughness,80 m,Provisional,Same grid; derivation documented as pending
+Shackleton_LOLA_80M_candidate.tif,Alternative crop,80 m,Excluded from stack,Different window; retain only as a candidate
+DFSAR_SRI_HH_20260308.tif,Radar HH,25 m,Not compatible yet,Current raster bounds do not overlap Shackleton crop
+Optical and illumination inputs,Required future inputs,TBD,Missing/unverified,Acquire and verify compatible spatial coverage
+
+Shackleton_average_illumination_80M.tif,Average solar illumination,80 m,Provisional,Resampled from AVGVISIB_85S_060M_201608; scale factor 0.00004 applied; 500x500 grid; physical units and spatial alignment require final validation
