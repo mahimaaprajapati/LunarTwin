@@ -1,0 +1,583 @@
+{
+  "reference_raster": "MOON_DATASET\\08_processed_data\\DEM\\Shackleton_LOLA_80M_crop.tif",
+  "reference_grid": {
+    "crs": "PROJCS[\"POLAR_STEREOGRAPHIC MOON\",GEOGCS[\"GCS_MOON\",DATUM[\"D_MOON\",SPHEROID[\"MOON\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-90],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1],AXIS[\"Easting\",NORTH],AXIS[\"Northing\",NORTH]]",
+    "width": 500,
+    "height": 500,
+    "bounds": [
+      -12320.0,
+      -26400.0,
+      27680.0,
+      13600.0
+    ]
+  },
+  "raster_count": 23,
+  "rasters": [
+    {
+      "file": "DEM\\LOLA_south_pole_elevation_118m.tif",
+      "bands": 1,
+      "width": 2560,
+      "height": 2561,
+      "crs": "PROJCS[\"SimpleCylindrical Moon\",GEOGCS[\"GCS_Moon\",DATUM[\"D_Moon\",SPHEROID[\"Moon\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",0],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "nodata": "-9999.0",
+      "valid_values": 6553600,
+      "total_values": 6556160,
+      "valid_fraction": 0.99961,
+      "min": -3960.5,
+      "median": -502.5,
+      "max": 5173.5,
+      "matches_reference_grid": false,
+      "descriptions": [
+        "Lunar elevation (m)"
+      ],
+      "tags": {
+        "AREA_OR_POINT": "Area"
+      }
+    },
+    {
+      "file": "DEM\\Shackleton_aspect_80M.tif",
+      "bands": 1,
+      "width": 500,
+      "height": 500,
+      "crs": "PROJCS[\"POLAR_STEREOGRAPHIC MOON\",GEOGCS[\"GCS_MOON\",DATUM[\"D_MOON\",SPHEROID[\"MOON\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-90],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1],AXIS[\"Easting\",NORTH],AXIS[\"Northing\",NORTH]]",
+      "nodata": "-9999.0",
+      "valid_values": 250000,
+      "total_values": 250000,
+      "valid_fraction": 1.0,
+      "min": 0.0,
+      "median": 168.3663330078125,
+      "max": 359.7359619140625,
+      "matches_reference_grid": true,
+      "descriptions": [
+        null
+      ],
+      "tags": {
+        "ASPECT_NOTE": "Raster-coordinate direction; geographic orientation not independently validated.",
+        "PIXEL_SIZE_M": "80.0",
+        "REGION_NOTE": "Shackleton candidate region; geographic placement still requires independent validation.",
+        "ROUGHNESS_METHOD": "5x5 local standard deviation",
+        "SCALE_FACTOR": "0.5",
+        "SOURCE": "NASA LRO LOLA LDEM_80S_80M",
+        "AREA_OR_POINT": "Area"
+      }
+    },
+    {
+      "file": "DEM\\Shackleton_height_80M.tif",
+      "bands": 1,
+      "width": 500,
+      "height": 500,
+      "crs": "PROJCS[\"POLAR_STEREOGRAPHIC MOON\",GEOGCS[\"GCS_MOON\",DATUM[\"D_MOON\",SPHEROID[\"MOON\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-90],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1],AXIS[\"Easting\",NORTH],AXIS[\"Northing\",NORTH]]",
+      "nodata": "-9999.0",
+      "valid_values": 250000,
+      "total_values": 250000,
+      "valid_fraction": 1.0,
+      "min": -2868.5,
+      "median": 184.5,
+      "max": 1957.5,
+      "matches_reference_grid": true,
+      "descriptions": [
+        null
+      ],
+      "tags": {
+        "ASPECT_NOTE": "Raster-coordinate direction; geographic orientation not independently validated.",
+        "PIXEL_SIZE_M": "80.0",
+        "REGION_NOTE": "Shackleton candidate region; geographic placement still requires independent validation.",
+        "ROUGHNESS_METHOD": "5x5 local standard deviation",
+        "SCALE_FACTOR": "0.5",
+        "SOURCE": "NASA LRO LOLA LDEM_80S_80M",
+        "AREA_OR_POINT": "Area"
+      }
+    },
+    {
+      "file": "DEM\\Shackleton_LOLA_80M_candidate.tif",
+      "bands": 1,
+      "width": 500,
+      "height": 500,
+      "crs": "PROJCS[\"POLAR_STEREOGRAPHIC MOON\",GEOGCS[\"GCS_MOON\",DATUM[\"D_MOON\",SPHEROID[\"MOON\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-90],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1],AXIS[\"Easting\",NORTH],AXIS[\"Northing\",NORTH]]",
+      "nodata": "-32768.0",
+      "valid_values": 250000,
+      "total_values": 250000,
+      "valid_fraction": 1.0,
+      "min": -5737.0,
+      "median": 189.0,
+      "max": 3915.0,
+      "matches_reference_grid": false,
+      "descriptions": [
+        null
+      ],
+      "tags": {
+        "NOTE": "Candidate crop; geographic placement must be independently validated.",
+        "REGION": "Shackleton candidate region - placement unverified",
+        "SOURCE": "NASA LRO LOLA LDEM_80S_80M",
+        "SOURCE_COL_START": "3453",
+        "SOURCE_ROW_START": "3630",
+        "AREA_OR_POINT": "Area"
+      }
+    },
+    {
+      "file": "DEM\\Shackleton_LOLA_80M_crop.tif",
+      "bands": 1,
+      "width": 500,
+      "height": 500,
+      "crs": "PROJCS[\"POLAR_STEREOGRAPHIC MOON\",GEOGCS[\"GCS_MOON\",DATUM[\"D_MOON\",SPHEROID[\"MOON\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-90],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1],AXIS[\"Easting\",NORTH],AXIS[\"Northing\",NORTH]]",
+      "nodata": "-32768.0",
+      "valid_values": 250000,
+      "total_values": 250000,
+      "valid_fraction": 1.0,
+      "min": -5737.0,
+      "median": 369.0,
+      "max": 3915.0,
+      "matches_reference_grid": true,
+      "descriptions": [
+        null
+      ],
+      "tags": {
+        "NOTE": "Provisional crop; geographic placement requires validation.",
+        "REGION": "Shackleton candidate region",
+        "SOURCE": "NASA LRO LOLA LDEM_80S_80M",
+        "AREA_OR_POINT": "Area"
+      }
+    },
+    {
+      "file": "DEM\\Shackleton_roughness_80M.tif",
+      "bands": 1,
+      "width": 500,
+      "height": 500,
+      "crs": "PROJCS[\"POLAR_STEREOGRAPHIC MOON\",GEOGCS[\"GCS_MOON\",DATUM[\"D_MOON\",SPHEROID[\"MOON\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-90],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1],AXIS[\"Easting\",NORTH],AXIS[\"Northing\",NORTH]]",
+      "nodata": "-9999.0",
+      "valid_values": 250000,
+      "total_values": 250000,
+      "valid_fraction": 1.0,
+      "min": 0.5374838709831238,
+      "median": 21.482532501220703,
+      "max": 81.9486312866211,
+      "matches_reference_grid": true,
+      "descriptions": [
+        null
+      ],
+      "tags": {
+        "ASPECT_NOTE": "Raster-coordinate direction; geographic orientation not independently validated.",
+        "PIXEL_SIZE_M": "80.0",
+        "REGION_NOTE": "Shackleton candidate region; geographic placement still requires independent validation.",
+        "ROUGHNESS_METHOD": "5x5 local standard deviation",
+        "SCALE_FACTOR": "0.5",
+        "SOURCE": "NASA LRO LOLA LDEM_80S_80M",
+        "AREA_OR_POINT": "Area"
+      }
+    },
+    {
+      "file": "DEM\\Shackleton_slope_80M.tif",
+      "bands": 1,
+      "width": 500,
+      "height": 500,
+      "crs": "PROJCS[\"POLAR_STEREOGRAPHIC MOON\",GEOGCS[\"GCS_MOON\",DATUM[\"D_MOON\",SPHEROID[\"MOON\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-90],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1],AXIS[\"Easting\",NORTH],AXIS[\"Northing\",NORTH]]",
+      "nodata": "-9999.0",
+      "valid_values": 250000,
+      "total_values": 250000,
+      "valid_fraction": 1.0,
+      "min": 0.0,
+      "median": 10.88835620880127,
+      "max": 38.14415740966797,
+      "matches_reference_grid": true,
+      "descriptions": [
+        null
+      ],
+      "tags": {
+        "ASPECT_NOTE": "Raster-coordinate direction; geographic orientation not independently validated.",
+        "PIXEL_SIZE_M": "80.0",
+        "REGION_NOTE": "Shackleton candidate region; geographic placement still requires independent validation.",
+        "ROUGHNESS_METHOD": "5x5 local standard deviation",
+        "SCALE_FACTOR": "0.5",
+        "SOURCE": "NASA LRO LOLA LDEM_80S_80M",
+        "AREA_OR_POINT": "Area"
+      }
+    },
+    {
+      "file": "DEM\\Shackleton_terrain_stack_80M.tif",
+      "bands": 4,
+      "width": 500,
+      "height": 500,
+      "crs": "PROJCS[\"POLAR_STEREOGRAPHIC MOON\",GEOGCS[\"GCS_MOON\",DATUM[\"D_MOON\",SPHEROID[\"MOON\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-90],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1],AXIS[\"Easting\",NORTH],AXIS[\"Northing\",NORTH]]",
+      "nodata": "nan",
+      "valid_values": 1000000,
+      "total_values": 1000000,
+      "valid_fraction": 1.0,
+      "min": -2868.5,
+      "median": 27.028438568115234,
+      "max": 1957.5,
+      "matches_reference_grid": true,
+      "descriptions": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "tags": {
+        "AREA_OR_POINT": "Area"
+      }
+    },
+    {
+      "file": "DEM\\Shackleton_terrain_valid_mask_80M.tif",
+      "bands": 1,
+      "width": 500,
+      "height": 500,
+      "crs": "PROJCS[\"POLAR_STEREOGRAPHIC MOON\",GEOGCS[\"GCS_MOON\",DATUM[\"D_MOON\",SPHEROID[\"MOON\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-90],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1],AXIS[\"Easting\",NORTH],AXIS[\"Northing\",NORTH]]",
+      "nodata": "0.0",
+      "valid_values": 250000,
+      "total_values": 250000,
+      "valid_fraction": 1.0,
+      "min": 1.0,
+      "median": 1.0,
+      "max": 1.0,
+      "matches_reference_grid": true,
+      "descriptions": [
+        null
+      ],
+      "tags": {
+        "AREA_OR_POINT": "Area"
+      }
+    },
+    {
+      "file": "Illumination\\Shackleton_average_illumination_80M.tif",
+      "bands": 1,
+      "width": 500,
+      "height": 500,
+      "crs": "PROJCS[\"POLAR_STEREOGRAPHIC MOON\",GEOGCS[\"GCS_MOON\",DATUM[\"D_MOON\",SPHEROID[\"MOON\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-90],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1],AXIS[\"Easting\",NORTH],AXIS[\"Northing\",NORTH]]",
+      "nodata": "nan",
+      "valid_values": 250000,
+      "total_values": 250000,
+      "valid_fraction": 1.0,
+      "min": 0.0,
+      "median": 0.21819709986448288,
+      "max": 0.7880469560623169,
+      "matches_reference_grid": true,
+      "descriptions": [
+        "Average solar illumination (scaled source values)"
+      ],
+      "tags": {
+        "NOTE": "Verify physical units from official product documentation.",
+        "REFERENCE_GRID": "Shackleton_LOLA_80M_crop.tif",
+        "RESAMPLING": "bilinear",
+        "SOURCE_OFFSET": "0.0",
+        "SOURCE_PRODUCT": "AVGVISIB_85S_060M_201608",
+        "SOURCE_SCALE_FACTOR": "4e-05",
+        "AREA_OR_POINT": "Area"
+      }
+    },
+    {
+      "file": "Radar\\DFSAR\\20260308\\Derived\\DFSAR_HH_VV_difference_20260308.tif",
+      "bands": 1,
+      "width": 5682,
+      "height": 3215,
+      "crs": "PROJCS[\"POLARSTEREOGRAPHIC MOON\",GEOGCS[\"GCS_MOON\",DATUM[\"D_MOON\",SPHEROID[\"MOON_polarRadius\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-90],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1],AXIS[\"Easting\",NORTH],AXIS[\"Northing\",NORTH]]",
+      "nodata": "-9999.0",
+      "valid_values": 18267630,
+      "total_values": 18267630,
+      "valid_fraction": 1.0,
+      "min": -1213.0,
+      "median": 0.0,
+      "max": 1129.0,
+      "matches_reference_grid": false,
+      "descriptions": [
+        "HH minus VV pixel-value difference"
+      ],
+      "tags": {
+        "AREA_OR_POINT": "Area"
+      }
+    },
+    {
+      "file": "Radar\\DFSAR\\20260308\\Derived\\DFSAR_HV_HH_ratio_20260308.tif",
+      "bands": 1,
+      "width": 5682,
+      "height": 3215,
+      "crs": "PROJCS[\"POLARSTEREOGRAPHIC MOON\",GEOGCS[\"GCS_MOON\",DATUM[\"D_MOON\",SPHEROID[\"MOON_polarRadius\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-90],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1],AXIS[\"Easting\",NORTH],AXIS[\"Northing\",NORTH]]",
+      "nodata": "-9999.0",
+      "valid_values": 441593,
+      "total_values": 18267630,
+      "valid_fraction": 0.024174,
+      "min": 0.0,
+      "median": 0.4144144058227539,
+      "max": 2.200000047683716,
+      "matches_reference_grid": false,
+      "descriptions": [
+        "HV to HH pixel-value ratio"
+      ],
+      "tags": {
+        "AREA_OR_POINT": "Area"
+      }
+    },
+    {
+      "file": "Radar\\DFSAR\\20260308\\Derived\\DFSAR_VH_VV_ratio_20260308.tif",
+      "bands": 1,
+      "width": 5682,
+      "height": 3215,
+      "crs": "PROJCS[\"POLARSTEREOGRAPHIC MOON\",GEOGCS[\"GCS_MOON\",DATUM[\"D_MOON\",SPHEROID[\"MOON_polarRadius\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-90],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1],AXIS[\"Easting\",NORTH],AXIS[\"Northing\",NORTH]]",
+      "nodata": "-9999.0",
+      "valid_values": 441596,
+      "total_values": 18267630,
+      "valid_fraction": 0.024174,
+      "min": 0.0,
+      "median": 0.38056680560112,
+      "max": 2.1363637447357178,
+      "matches_reference_grid": false,
+      "descriptions": [
+        "VH to VV pixel-value ratio"
+      ],
+      "tags": {
+        "AREA_OR_POINT": "Area"
+      }
+    },
+    {
+      "file": "Radar\\DFSAR\\20260308\\HH\\DFSAR_SRI_HH_20260308.tif",
+      "bands": 1,
+      "width": 5682,
+      "height": 3215,
+      "crs": "PROJCS[\"POLARSTEREOGRAPHIC MOON\",GEOGCS[\"GCS_MOON\",DATUM[\"D_MOON\",SPHEROID[\"MOON_polarRadius\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-90],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1],AXIS[\"Easting\",NORTH],AXIS[\"Northing\",NORTH]]",
+      "nodata": "None",
+      "valid_values": 18267630,
+      "total_values": 18267630,
+      "valid_fraction": 1.0,
+      "min": 0.0,
+      "median": 0.0,
+      "max": 18369.0,
+      "matches_reference_grid": false,
+      "descriptions": [
+        null
+      ],
+      "tags": {
+        "AREA_OR_POINT": "Area"
+      }
+    },
+    {
+      "file": "Radar\\DFSAR\\20260308\\HV\\DFSAR_SRI_HV_20260308.tif",
+      "bands": 1,
+      "width": 5682,
+      "height": 3215,
+      "crs": "PROJCS[\"POLARSTEREOGRAPHIC MOON\",GEOGCS[\"GCS_MOON\",DATUM[\"D_MOON\",SPHEROID[\"MOON_polarRadius\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-90],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1],AXIS[\"Easting\",NORTH],AXIS[\"Northing\",NORTH]]",
+      "nodata": "None",
+      "valid_values": 18267630,
+      "total_values": 18267630,
+      "valid_fraction": 1.0,
+      "min": 0.0,
+      "median": 0.0,
+      "max": 1093.0,
+      "matches_reference_grid": false,
+      "descriptions": [
+        null
+      ],
+      "tags": {
+        "AREA_OR_POINT": "Area"
+      }
+    },
+    {
+      "file": "Radar\\DFSAR\\20260308\\VH\\DFSAR_SRI_VH_20260308.tif",
+      "bands": 1,
+      "width": 5682,
+      "height": 3215,
+      "crs": "PROJCS[\"POLARSTEREOGRAPHIC MOON\",GEOGCS[\"GCS_MOON\",DATUM[\"D_MOON\",SPHEROID[\"MOON_polarRadius\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-90],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1],AXIS[\"Easting\",NORTH],AXIS[\"Northing\",NORTH]]",
+      "nodata": "None",
+      "valid_values": 18267630,
+      "total_values": 18267630,
+      "valid_fraction": 1.0,
+      "min": 0.0,
+      "median": 0.0,
+      "max": 1115.0,
+      "matches_reference_grid": false,
+      "descriptions": [
+        null
+      ],
+      "tags": {
+        "AREA_OR_POINT": "Area"
+      }
+    },
+    {
+      "file": "Radar\\DFSAR\\20260308\\VV\\DFSAR_SRI_VV_20260308.tif",
+      "bands": 1,
+      "width": 5682,
+      "height": 3215,
+      "crs": "PROJCS[\"POLARSTEREOGRAPHIC MOON\",GEOGCS[\"GCS_MOON\",DATUM[\"D_MOON\",SPHEROID[\"MOON_polarRadius\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-90],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1],AXIS[\"Easting\",NORTH],AXIS[\"Northing\",NORTH]]",
+      "nodata": "None",
+      "valid_values": 18267630,
+      "total_values": 18267630,
+      "valid_fraction": 1.0,
+      "min": 0.0,
+      "median": 0.0,
+      "max": 17255.0,
+      "matches_reference_grid": false,
+      "descriptions": [
+        null
+      ],
+      "tags": {
+        "AREA_OR_POINT": "Area"
+      }
+    },
+    {
+      "file": "Radar\\Shackleton_CPR_80M.tif",
+      "bands": 1,
+      "width": 500,
+      "height": 500,
+      "crs": "PROJCS[\"POLAR_STEREOGRAPHIC MOON\",GEOGCS[\"GCS_MOON\",DATUM[\"D_MOON\",SPHEROID[\"MOON\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-90],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1],AXIS[\"Easting\",NORTH],AXIS[\"Northing\",NORTH]]",
+      "nodata": "nan",
+      "valid_values": 218465,
+      "total_values": 250000,
+      "valid_fraction": 0.87386,
+      "min": -11846.6357421875,
+      "median": 0.43494710326194763,
+      "max": 440.49407958984375,
+      "matches_reference_grid": true,
+      "descriptions": [
+        "Mini-RF circular polarization ratio (CPR)"
+      ],
+      "tags": {
+        "limitation": "Partial radar coverage; missing values preserved",
+        "product_id": "GLOBAL_CPR_128PPD_SIMP_0C",
+        "resampling": "nearest",
+        "source": "LRO Mini-RF global CPR mosaic",
+        "target_grid": "Shackleton_LOLA_80M_crop.tif",
+        "AREA_OR_POINT": "Area"
+      }
+    },
+    {
+      "file": "Shackleton_CPR_128ppd.tif",
+      "bands": 1,
+      "width": 101,
+      "height": 93,
+      "crs": "None",
+      "nodata": "nan",
+      "valid_values": 9191,
+      "total_values": 9393,
+      "valid_fraction": 0.978495,
+      "min": 0.09557594358921051,
+      "median": 0.7389742136001587,
+      "max": 5.4160943031311035,
+      "matches_reference_grid": false,
+      "descriptions": [
+        null
+      ],
+      "tags": {}
+    },
+    {
+      "file": "Shackleton_CPR_aligned_80M.tif",
+      "bands": 1,
+      "width": 500,
+      "height": 500,
+      "crs": "PROJCS[\"POLAR_STEREOGRAPHIC MOON\",GEOGCS[\"GCS_MOON\",DATUM[\"D_MOON\",SPHEROID[\"MOON\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-90],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1],AXIS[\"Easting\",NORTH],AXIS[\"Northing\",NORTH]]",
+      "nodata": "nan",
+      "valid_values": 217775,
+      "total_values": 250000,
+      "valid_fraction": 0.8711,
+      "min": -232.52699279785156,
+      "median": 0.4320570230484009,
+      "max": 419.7536926269531,
+      "matches_reference_grid": true,
+      "descriptions": [
+        "Mini-RF CPR"
+      ],
+      "tags": {
+        "AREA_OR_POINT": "Area"
+      }
+    },
+    {
+      "file": "TERRAIN\\Aspect\\LOLA_aspect_degrees_118m.tif",
+      "bands": 1,
+      "width": 2560,
+      "height": 2561,
+      "crs": "PROJCS[\"SimpleCylindrical Moon\",GEOGCS[\"GCS_Moon\",DATUM[\"D_Moon\",SPHEROID[\"Moon\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",0],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "nodata": "-9999.0",
+      "valid_values": 6548480,
+      "total_values": 6556160,
+      "valid_fraction": 0.998829,
+      "min": 0.0,
+      "median": 179.3055419921875,
+      "max": 359.85040283203125,
+      "matches_reference_grid": false,
+      "descriptions": [
+        "Terrain aspect (degrees clockwise from north)"
+      ],
+      "tags": {
+        "AREA_OR_POINT": "Area"
+      }
+    },
+    {
+      "file": "TERRAIN\\Roughness\\LOLA_roughness_range_3x3_118m.tif",
+      "bands": 1,
+      "width": 2560,
+      "height": 2561,
+      "crs": "PROJCS[\"SimpleCylindrical Moon\",GEOGCS[\"GCS_Moon\",DATUM[\"D_Moon\",SPHEROID[\"Moon\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",0],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "nodata": "-9999.0",
+      "valid_values": 6553600,
+      "total_values": 6556160,
+      "valid_fraction": 0.99961,
+      "min": 0.0,
+      "median": 30.5,
+      "max": 563.5,
+      "matches_reference_grid": false,
+      "descriptions": [
+        "Local elevation range roughness (m)"
+      ],
+      "tags": {
+        "AREA_OR_POINT": "Area"
+      }
+    },
+    {
+      "file": "TERRAIN\\Slope\\LOLA_slope_degrees_118m.tif",
+      "bands": 1,
+      "width": 2560,
+      "height": 2561,
+      "crs": "PROJCS[\"SimpleCylindrical Moon\",GEOGCS[\"GCS_Moon\",DATUM[\"D_Moon\",SPHEROID[\"Moon\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",0],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "nodata": "-9999.0",
+      "valid_values": 6548480,
+      "total_values": 6556160,
+      "valid_fraction": 0.998829,
+      "min": 0.0,
+      "median": 6.572381973266602,
+      "max": 86.52312469482422,
+      "matches_reference_grid": false,
+      "descriptions": [
+        "Terrain slope (degrees)"
+      ],
+      "tags": {
+        "AREA_OR_POINT": "Area"
+      }
+    }
+  ],
+  "additional_validation": {
+    "updated_at": "2026-10-24T12:33:18",
+    "status": "PARTIALLY_VALIDATED_SCIENTIFIC_REVIEW_PENDING",
+    "checks": {
+      "core_shackleton_grid": {
+        "status": "PASS_STRUCTURAL",
+        "details": "The 500x500 terrain layers and average-illumination raster match the reference raster grid. This does not independently prove geographic placement or physical validity."
+      },
+      "dfsar_grid_and_ratios": {
+        "status": "PASS_CALCULATION_CHECKS",
+        "details": "The four polarization rasters and two ratio rasters were confirmed to share a grid. HV/HH and VH/VV ratios agree with source-band division within floating-point precision. Ratio coverage is approximately 2.42 percent."
+      },
+      "dfsar_hh_vv_difference": {
+        "status": "PASS_ARITHMETIC_CHECK",
+        "details": "HH minus VV matched the stored difference raster exactly at all 18,267,630 checked pixels. This verifies arithmetic, not the scientific meaning of zero-valued background pixels."
+      },
+      "dfsar_coverage_semantics": {
+        "status": "PENDING",
+        "details": "Source polarization rasters contain about 97.58 percent zero-valued pixels. Whether these represent missing coverage or genuine zeros has not been independently established."
+      },
+      "minirf_cpr_aligned": {
+        "status": "PASS_SOURCE_SAMPLE_COMPARISON",
+        "details": "The aligned CPR raster matched sampled values from the original Mini-RF source for 217,775 valid samples. Source outliers were retained; physical interpretation still needs review."
+      },
+      "minirf_cpr_alternate": {
+        "status": "UNVERIFIED_DO_NOT_USE_AS_TRUSTED_INPUT",
+        "details": "The alternate Shackleton_CPR_80M.tif has implausible extreme values and has not been approved as a trusted input."
+      },
+      "terrain_geographic_placement": {
+        "status": "PENDING",
+        "details": "The Shackleton crop geographic placement and vertical reference still require independent validation."
+      },
+      "illumination_physical_validation": {
+        "status": "PENDING",
+        "details": "Raster grid alignment is confirmed, but geographic alignment, source scaling and physical interpretation remain unresolved."
+      }
+    },
+    "overall_note": "This is a structural and calculation validation update, not scientific certification of the complete multimodal dataset. Preserve NoData and source provenance. Do not treat unverified coverage or geographic placement as established."
+  }
+}

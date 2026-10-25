@@ -8,5 +8,11 @@ Shackleton_roughness_80M.tif,Roughness,80 m,Provisional,Same grid; derivation do
 Shackleton_LOLA_80M_candidate.tif,Alternative crop,80 m,Excluded from stack,Different window; retain only as a candidate
 DFSAR_SRI_HH_20260308.tif,Radar HH,25 m,Not compatible yet,Current raster bounds do not overlap Shackleton crop
 Optical and illumination inputs,Required future inputs,TBD,Missing/unverified,Acquire and verify compatible spatial coverage
-
 Shackleton_average_illumination_80M.tif,Average solar illumination,80 m,Provisional,Resampled from AVGVISIB_85S_060M_201608; scale factor 0.00004 applied; 500x500 grid; physical units and spatial alignment require final validation
+Shackleton_terrain_stack_80M.tif,Four-band terrain stack,80 m,Provisional,"Bands: elevation, slope, aspect, roughness; component grid consistency checked; geographic placement and derivation validation pending."
+Shackleton_terrain_valid_mask_80M.tif,Terrain valid-pixel mask,80 m,Structurally checked,All pixels currently equal 1; this does not independently establish scientific source-data validity.
+Shackleton_CPR_aligned_80M.tif,Mini-RF CPR source-sampled aligned layer,80 m target grid,Provisional; outlier review pending,Finite samples matched source values in the performed check; negative and unusually large source values remain unexplained.
+Shackleton_CPR_80M.tif,Alternate Mini-RF CPR reprojection,80 m target grid,Unverified; exclude from trusted analysis,Implausible extreme values and unresolved georeferencing/reprojection concerns.
+DFSAR_HH_VV_difference_20260308.tif,DFSAR HH minus VV difference,25 m,Formula checked; coverage review pending,Matches HH minus VV in the performed pixel comparison; geographic overlap with Shackleton and zero-value coverage semantics remain unresolved.
+DFSAR_HV_HH_ratio_20260308.tif,DFSAR HV/HH ratio,25 m,Formula checked; coverage review pending,Matches the ratio formula within floating-point tolerance; geographic overlap and source zero-value semantics remain unresolved.
+DFSAR_VH_VV_ratio_20260308.tif,DFSAR VH/VV ratio,25 m,Formula checked; coverage review pending,Matches the ratio formula within floating-point tolerance; geographic overlap and source zero-value semantics remain unresolved.
